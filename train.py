@@ -1,4 +1,16 @@
-''' MIT L-TASK'''
+''' MIT M-TASK'''
+
+
+def getSquareNumbers(data):
+    result = []
+    for a in data:
+        result.append({"number": a, "square": a**2})
+    return result
+
+
+print(getSquareNumbers([1, 2, 3]))
+
+''' MIT L-TASK
 
 
 def reverseSentence(data):
@@ -9,6 +21,7 @@ def reverseSentence(data):
 
 
 print(reverseSentence("we like coding!"))
+'''
 
 ''' MIT K-TASK 
 
