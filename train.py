@@ -1,4 +1,13 @@
-''' MIT M-TASK'''
+''' MIT N-TASK '''
+
+
+def palindromCheck(data):
+    return data == data[::-1]
+
+
+print(palindromCheck("level"))
+
+''' MIT M-TASK
 
 
 def getSquareNumbers(data):
@@ -9,6 +18,7 @@ def getSquareNumbers(data):
 
 
 print(getSquareNumbers([1, 2, 3]))
+'''
 
 ''' MIT L-TASK
 
