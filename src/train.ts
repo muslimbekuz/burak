@@ -3,8 +3,8 @@
 - Naming Standarts:
                     function, method, variable - CAMEL => goHome
                     class - PASCAL => MemberService
-                    folder - KEBAB
+                    folder,file - KEBAB => router-admin
                     css - SNAKE => button_style
 
-
+- Error Handling
 */
