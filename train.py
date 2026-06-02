@@ -1,4 +1,17 @@
-''' MIT N-TASK '''
+''' MIT O-TASK'''
+
+
+def calculateSumOfNumbers(data):
+    sum = 0
+    for i in data:
+        if isinstance(i, int) and not isinstance(i, bool):
+            sum += i
+    return sum
+
+
+print(calculateSumOfNumbers([50, "10", {"son": 10}, False, 50, True]))
+
+''' MIT N-TASK 
 
 
 def palindromCheck(data):
@@ -6,6 +19,7 @@ def palindromCheck(data):
 
 
 print(palindromCheck("level"))
+'''
 
 ''' MIT M-TASK
 
