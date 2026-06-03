@@ -1,4 +1,14 @@
-''' MIT O-TASK'''
+''' MIT P-TASK'''
+
+
+def objectToArray(data):
+    return [[key, value] for key, value in data.items()]
+
+
+print(objectToArray({"a": 10, "b": 20}))
+
+
+''' MIT O-TASK
 
 
 def calculateSumOfNumbers(data):
@@ -10,6 +20,8 @@ def calculateSumOfNumbers(data):
 
 
 print(calculateSumOfNumbers([50, "10", {"son": 10}, False, 50, True]))
+'''
+
 
 ''' MIT N-TASK 
 
