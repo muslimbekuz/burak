@@ -1,4 +1,13 @@
-''' MIT P-TASK'''
+''' MIT Q-TASK'''
+
+
+def hasProperty(obj, str):
+    return True if str in obj else False
+
+
+print(hasProperty({"name": "PORSCHE 911"}, "name"))
+
+''' MIT P-TASK
 
 
 def objectToArray(data):
@@ -6,6 +15,7 @@ def objectToArray(data):
 
 
 print(objectToArray({"a": 10, "b": 20}))
+'''
 
 
 ''' MIT O-TASK
