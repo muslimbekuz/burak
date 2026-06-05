@@ -19,7 +19,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("views engine", "ejs");
 
 /* 4-ROUTERS */
-app.use("/admin", routerAdmin); // EJS
-app.use("/", router); // REACT
+app.use("/admin", routerAdmin); // BSSR
+app.use("/", router); // SPA
 
 export default app;
