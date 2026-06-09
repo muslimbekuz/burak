@@ -1,4 +1,17 @@
-''' MIT Q-TASK'''
+''' MIT R-TASK'''
+
+
+def calculate(data):
+    total = 0
+    numbers = data.split("+")
+    for a in numbers:
+        total += int(a)
+    return total
+
+
+print(calculate("4 + 3"))
+
+''' MIT Q-TASK
 
 
 def hasProperty(obj, str):
@@ -6,6 +19,7 @@ def hasProperty(obj, str):
 
 
 print(hasProperty({"name": "PORSCHE 911"}, "name"))
+'''
 
 ''' MIT P-TASK
 
