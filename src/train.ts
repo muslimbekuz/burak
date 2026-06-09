@@ -19,3 +19,8 @@
 /* Traditional FD  => BSSR (Adminka)  =>  EJS
    Modern FD       => SPA  (Users's Application)   =>  REACT  
 */
+
+/*
+request join
+self destroy
+*/
