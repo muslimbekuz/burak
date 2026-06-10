@@ -1,4 +1,15 @@
-''' MIT R-TASK'''
+''' MIT S-TASK'''
+
+
+def missingNumber(numbers):
+    n = len(numbers)
+    return n * (n + 1) // 2 - sum(numbers)
+
+
+print(missingNumber([0, 1, 2, 3, 4, 5, 6, 8, 9]))
+
+
+''' MIT R-TASK
 
 
 def calculate(data):
@@ -10,6 +21,7 @@ def calculate(data):
 
 
 print(calculate("4 + 3"))
+'''
 
 ''' MIT Q-TASK
 
