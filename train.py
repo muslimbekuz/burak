@@ -1,4 +1,16 @@
-''' MIT S-TASK'''
+''' MIT T-TASK'''
+
+
+def mergeSortedArrays(array1, array2):
+    for a in array1:
+        array2.append(a)
+    return sorted(array2)
+
+
+print(mergeSortedArrays([3, 1, 4], [2, 5]))
+
+
+''' MIT S-TASK
 
 
 def missingNumber(numbers):
@@ -7,6 +19,7 @@ def missingNumber(numbers):
 
 
 print(missingNumber([0, 1, 2, 3, 4, 5, 6, 8, 9]))
+'''
 
 
 ''' MIT R-TASK
