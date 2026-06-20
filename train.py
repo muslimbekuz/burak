@@ -1,4 +1,19 @@
-''' MIT T-TASK'''
+''' MIT V-TASK'''
+
+
+def countChars(data):
+    obj = {}
+    for key in data:
+        if (key in obj):
+            obj[key] += 1
+        else:
+            obj[key] = 1
+    return obj
+
+
+print(countChars("muslim"))
+
+''' MIT T-TASK
 
 
 def mergeSortedArrays(array1, array2):
@@ -8,6 +23,7 @@ def mergeSortedArrays(array1, array2):
 
 
 print(mergeSortedArrays([3, 1, 4], [2, 5]))
+'''
 
 
 ''' MIT S-TASK
