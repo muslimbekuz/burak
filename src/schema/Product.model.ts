@@ -25,7 +25,7 @@ const productSchema = new Schema(
       required: true,
     },
 
-    productPrize: {
+    productPrice: {
       type: Number,
       required: true,
     },
