@@ -1,5 +1,22 @@
 ''' MIT W-TASK'''
 
+# task W
+
+
+def chunkArray(arr, chunk):
+    result_arr = []
+
+    for b in range(0, len(arr), chunk):
+        temp_arr = []
+        for a in range(chunk):
+            if (b+a < len(arr)):
+                temp_arr.append(arr[b+a])
+        result_arr.append(temp_arr)
+    return result_arr
+
+
+print(chunkArray([1, 2, 3, 4, 5], 2))
+
 ''' MIT V-TASK
 
 
