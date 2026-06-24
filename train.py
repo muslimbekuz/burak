@@ -1,6 +1,24 @@
-''' MIT W-TASK'''
+''' MIT X-TASK'''
 
-# task W
+
+def countOccurrences(obj, key):
+    count = 0
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if k == key:
+                count += 1
+            count += countOccurrences(v, key)
+    elif isinstance(obj, list):
+        for item in obj:
+            count += countOccurrences(item, key)
+    return count
+
+
+print(countOccurrences({"model": "A", "s": {"model": "B"}}, "model"))
+
+''' MIT W-TASK
+
+
 
 
 def chunkArray(arr, chunk):
@@ -16,6 +34,7 @@ def chunkArray(arr, chunk):
 
 
 print(chunkArray([1, 2, 3, 4, 5], 2))
+'''
 
 ''' MIT V-TASK
 
