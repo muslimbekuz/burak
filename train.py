@@ -1,4 +1,17 @@
-''' MIT X-TASK'''
+''' MIT Y-TASK'''
+
+
+def findIntersection(array1, array2):
+    result = []
+    for n in array1:
+        if n in array2:
+            result.append(n)
+    return (result)
+
+
+findIntersection([1, 2, 3], [3, 2, 0])
+
+''' MIT X-TASK
 
 
 def countOccurrences(obj, key):
@@ -15,6 +28,7 @@ def countOccurrences(obj, key):
 
 
 print(countOccurrences({"model": "A", "s": {"model": "B"}}, "model"))
+'''
 
 ''' MIT W-TASK
 
