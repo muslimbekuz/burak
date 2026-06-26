@@ -6,7 +6,7 @@ def findIntersection(array1, array2):
     for n in array1:
         if n in array2:
             result.append(n)
-    return (result)
+    print(result)
 
 
 findIntersection([1, 2, 3], [3, 2, 0])
