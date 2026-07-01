@@ -1,4 +1,17 @@
-''' MIT Y-TASK'''
+''' MIT Z-TASK'''
+
+
+def sumEvens(array):
+    sum = 0
+    for n in array:
+        if (n % 2 == 0):
+            sum += n
+    return sum
+
+
+print(sumEvens([1, 2, 3]))
+
+''' MIT Y-TASK
 
 
 def findIntersection(array1, array2):
@@ -10,6 +23,7 @@ def findIntersection(array1, array2):
 
 
 findIntersection([1, 2, 3], [3, 2, 0])
+'''
 
 ''' MIT X-TASK
 
